@@ -1,0 +1,43 @@
+.box {
+    width: 100%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box .box__col1 {
+    width: 15%;
+    height: 615px;
+
+    background-color: aqua;
+}
+
+.box .box__col2 {
+    width: 100%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box .box__col2__sec1 {
+    width: 100%;
+    height: 205px;
+
+    background-color: darkblue;
+}
+
+.box .box__col2__sec2 {
+    width: 100%;
+    height: 205px;
+
+    background: chartreuse;
+}
+
+.box .box__col2__sec3 {
+    width: 100%;
+    height: 205px;
+
+    background: blueviolet;
+}
